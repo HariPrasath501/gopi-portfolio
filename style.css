@@ -215,6 +215,9 @@ section {
 }
 
 /* BUTTONS */
+.btn-container a {
+  text-decoration: none;
+}
 
 .btn-container {
   display: flex;
