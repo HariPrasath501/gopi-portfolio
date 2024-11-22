@@ -46,6 +46,9 @@ p {
 .nav-links a {
   color: white;
 }
+#desktop-nav .nav-links a {
+  text-decoration: none;
+}
 footer .nav-links a {
   text-decoration: none;
 }
