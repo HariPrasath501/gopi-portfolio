@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
@@ -38,7 +40,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="assets/gopi.JPG" alt="Gopikrishna profile picture" />
+       <img src="assets/gopi.JPG" alt="Gopikrishna profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -106,170 +108,83 @@
           </div>
         </div>
       </div>
-      <img
-        src="assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#skills'"
-      />
     </section>
-    <section id="skills">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <div class="article-container">
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-      
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Sql</h3>
-                
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Github</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Html</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Css</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>java script</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Bootstrap</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/EMS.avif"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">employe management system</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/gopi-krishna09/emplyome-management-system.git'"
-              >
-                Github
-              </button>
-              
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/gsm.avif"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">grocery_webapp</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/gopi-krishna09/grocerystore.git'"
-              >
-                Github
-              </button>
-            </div>
-          </div>      
-          </div>
+
+    <!--SKILLS SECTION-->
+
+    <section class="skills" id="skills">
+      <h2>Technical <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="assets/PYTHON.png" alt="Python">
+          <p>Python</p>
+        </div>
+        <div class="skill">
+          <img src="assets/SQL.png" alt="SQL">
+          <p>SQL</p>
+        </div>
+        <div class="skill">
+          <img src="assets/HTML.png" alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="skill">
+          <img src="assets/CSS.png" alt="CSS">
+          <p>CSS</p>
+        </div>
+        <div class="skill">
+          <img src="assets/JavaScript.png" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <img src="assets/BOOTSTRAP.png" alt="Bootstrap">
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill">
+          <img src="assets/github.png" alt="Bootstrap">
+          <p>GITHUB</p>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
     </section>
+
+    <!--PROJECT SECTION-->
+    <section class="project" id="projects">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="project-container">
+          <div class="project-box">
+              <img src="assets/project-1.png" alt="">
+              <div class="project-layer">
+                  <h4>SPICYHUT RESTAURANT</h4> <br>
+                  <p> • Developed a responsive and visually appealing webpage for SpicyHut Restaurant using HTML and CSS, with a focus on mobile optimization and user-friendly navigation.
+                  </p>
+                  <a href="https://restauran06.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+
+          <div class="project-box">
+              <img src="assets/project-2.png" alt="">
+              <div class="project-layer">
+                  <h4>ROYAL KITCHAN </h4> <br>
+                  <p> • Developed a fully responsive webpage for Royal Kitchen restaurant using HTML and CSS, featuring an intuitive layout, mobile-friendly design, and seamless performance across all devices.
+                  </p>
+                  <a href="https://royalkitchan06.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+
+          <div class="project-box">
+              <img src="assets/project-3.png" alt="">
+              <div class="project-layer">
+                  <h4>PYMYDB</h4> <br>
+                  <p> • Built PYMYDB, a Python-based CRUD app with MySQL for database management, streamlining operations and enhancing performance through seamless integration for create, read, update, and delete tasks.  
+                  </p>
+                  <a href="https://github.com/HariPrasath501/CURD-opperation.git" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
