@@ -211,13 +211,6 @@ section {
   margin:auto 0;
 }
 
-.section__pic-container img{
-  height: 45vh;
-  border-radius: 50%;
-  width: 35vw;
-  margin-left:20px;
-  margin-top: 30px;
-}
 
 .section__text {
   align-self: center;
