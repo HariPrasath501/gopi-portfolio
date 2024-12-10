@@ -24,8 +24,8 @@ const sr = ScrollReveal({
 });
 
 // Profile Section
-sr.reveal('#profile .section__pic-container', { origin: 'left' });
-sr.reveal('#profile .section__text', { origin: 'right', delay: 200 });
+sr.reveal('.profile .section__pic-container', { origin: 'left' });
+sr.reveal('.profile .section__text', { origin: 'right', delay: 200 });
 
 // About Section
 sr.reveal('#about .section__pic-container', { origin: 'top' });
