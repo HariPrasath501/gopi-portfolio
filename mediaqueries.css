@@ -53,10 +53,14 @@
   footer {
     height: 40vh;
   }
-  #profile {
+  .profile {
     height: 83vh;
     margin-bottom: 0;
   }
+  .section__pic-container img {
+    width: 40vw;
+  }
+
   article {
     font-size: 1rem;
   }
